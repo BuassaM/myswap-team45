@@ -1,9 +1,10 @@
 pragma solidity ^0.6.0;
 
+import "./Token.sol";
 
 contract EthSwap {
   string public name = "EthSwap Instant Exchange";
-  address public token;
+  Token public token;
   uint public rate = 100;
 
   event TokenPurchased(
@@ -22,7 +23,7 @@ contract EthSwap {
     uint tokenAmount = msg.value * rate;
 
     // Require that EthSwap has enough tokens
-    require(token.balanceOf(address(token)) >= tokenAmount);
+    require(token.balanceOf(address(this)) >= tokenAmount);
 
     // Transfer tokens to the user
     token.transfer(msg.sender, tokenAmount);
