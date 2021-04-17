@@ -48,7 +48,7 @@ Add testnet link here
 Docs
 ----
 
-[Business](https://github.com/sushiswap/sushiswap/blob/master/docs/DEVELOPMENT.md)
+Business
 Plan
 
 Code Documentation
