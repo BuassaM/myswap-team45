@@ -69,7 +69,7 @@ Collaborators
 
 -   Majid Kareem
 
--   Miguel Buassa
+-   Miguel Buassa (Ghost)
 
 -   Chike Maputu
 
